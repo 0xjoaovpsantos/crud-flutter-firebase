@@ -12,28 +12,30 @@ class _HomeState extends State<Home> {
         appBar: AppBar(
           title: Text("CRUD - Flutter & Firebase"),
         ),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Expanded(
-                child:
-                Container(
-                    margin: EdgeInsets.only(left: 50.0, right: 50.0, top: 50.0),
-                    child: TextField(
-                      decoration: InputDecoration(
-                          labelText: "Digite alguma coisa",
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(10.0)
-                          )
-                      ),
-                    )
-                )
-            ),
-            Container(
-              margin: EdgeInsets.only(bottom:30.0),
-              child: RaisedButton(child: Text("Inserir"), onPressed: (){}),
-            ),
-          ],
+        body: SingleChildScrollView(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Expanded(
+                  child:
+                  Container(
+                      margin: EdgeInsets.only(left: 50.0, right: 50.0, top: 50.0),
+                      child: TextField(
+                        decoration: InputDecoration(
+                            labelText: "Digite alguma coisa",
+                            border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(10.0)
+                            )
+                        ),
+                      )
+                  )
+              ),
+              Container(
+                margin: EdgeInsets.only(bottom:30.0),
+                child: RaisedButton(child: Text("Inserir"), onPressed: (){}),
+              ),
+            ],
+          ),
         ),
         bottomNavigationBar:
         Container(
