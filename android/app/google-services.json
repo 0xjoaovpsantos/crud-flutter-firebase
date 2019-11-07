@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "446656098094",
+    "firebase_url": "https://crud-flutter-firebase-805d0.firebaseio.com",
+    "project_id": "crud-flutter-firebase-805d0",
+    "storage_bucket": "crud-flutter-firebase-805d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446656098094:android:8aecfb4003cbc5b77454bf",
+        "android_client_info": {
+          "package_name": "study.br.com.victor.joao.crud_flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446656098094-98j0ooq9fq11podcp2ksa8pl8e6p2i0f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "study.br.com.victor.joao.crud_flutter_firebase",
+            "certificate_hash": "de36c06be743c736651ca7a0679ce024457a5d5e"
+          }
+        },
+        {
+          "client_id": "446656098094-ff6hvfkajvktoaul6q6fvari68huitve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGQy6azlNtJDNzVHFBe-CUwd2WYsSkHMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446656098094-ff6hvfkajvktoaul6q6fvari68huitve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,4 @@
+import 'package:crud_flutter_firebase/bloc/home_screen_bloc.dart';
 import "package:flutter/material.dart";
 
 class Home extends StatefulWidget {
@@ -6,6 +7,9 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+
+  final bloc = HomeBloc();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,7 +48,10 @@ class _HomeState extends State<Home> {
             decoration:
             BoxDecoration(
                 color: Colors.blue
-            )
+            ),
+          child: StreamBuilder(
+            stream: bloc.output
+          )
         )
     );
   }
